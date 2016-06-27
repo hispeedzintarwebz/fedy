@@ -10,7 +10,8 @@
 		},
 		"undo": {
 			"label": "Revert",
-			"command": "rm -f ~/.config/gtk-3.0/gtk.css"
+			"command": "sh ./revert.sh"
 		}
+		"status": { "command": "test if grep -q addedbyfedy ~/.config/gtk-3.0/gtk.css"  }
 	}
 }
