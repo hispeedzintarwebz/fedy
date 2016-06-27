@@ -3,7 +3,7 @@
 # create css file
 touch ~/.config/gtk-3.0/gtk.css
 
-#append css overrides
+#append css overrides with tags for removal later without removing entire file
 cat <<EOF >> ~/.config/gtk-3.0/gtk.css
 headerbar { /*addedbyfedy*/
     min-height: 38px; /*addedbyfedy*/
